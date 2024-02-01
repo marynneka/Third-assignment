@@ -1,0 +1,99 @@
+body{
+   width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 700px;
+}
+table, th, td{
+ border: 1px solid black;   
+ border-collapse: collapse;
+ max-width: 500px;
+ 
+}
+img {
+    width: 300px;
+    height: 300px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+border-radius: 100px ;
+border: 3px solid green;
+object-fit: cover;
+}
+h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+.bio{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+}
+hr{
+    width: 55%;
+}
+fieldset{
+    margin: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blanchedalmond;
+    
+}
+form{
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+}
+label{
+    display: block;
+    margin: 0.5rem 0;
+    font-size: large;
+    font-weight: bold;
+}
+input, select{
+    margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  box-sizing: content-box;
+  background-color: #D2B48C;
+  border: none;
+  
+}
+input[type="file"] {
+    padding: 1px 2px;
+}
+input[type="submit"]{
+    display: block;
+  width: 30%;
+  margin: 1em auto;
+  height: 2em;
+  min-width: 300px;
+  background-color: rgb(67, 119, 67);
+  font-size: large;
+}
+.skill{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+}
+.container{
+    margin-left: 300px;
+    margin-right: 200px;
+    width: 800px;
+    margin-top: 30px;
+}
+input{
+    font-weight: bold;
+}
+th{
+    background-color: red;
+    
+}
+td{
+    background-color: antiquewhite;
+}
